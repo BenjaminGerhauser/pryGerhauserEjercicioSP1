@@ -10,13 +10,19 @@ using System.Windows.Forms;
 
 namespace pryGerhauserEjercicioSP1
 {
-    public partial class frmBienvenida : Form
+    public partial class frmInicio : Form
     {
-        public frmBienvenida()
+        public frmInicio()
         {
             InitializeComponent();
         }
 
-       
+        private void btnLogin_Click(object sender, EventArgs e)
+        {
+            //this.Hide();
+            frmLogin login = new frmLogin();
+            login.ShowDialog();
+               
+        }
     }
 }
