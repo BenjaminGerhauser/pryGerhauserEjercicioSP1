@@ -19,7 +19,7 @@ namespace pryGerhauserEjercicioSP1
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            //this.Hide();
+            this.Hide();
             frmLogin login = new frmLogin();
             login.ShowDialog();
                
