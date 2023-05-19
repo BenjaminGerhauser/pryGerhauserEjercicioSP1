@@ -102,7 +102,7 @@ namespace pryGerhauserEjercicioSP1
             {
                 this.Close();
             }
-            lblMostrar.Text = varintentos.ToString();    
+             
 
         }
 

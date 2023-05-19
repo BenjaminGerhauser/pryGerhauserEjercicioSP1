@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmBienvenida));
             this.lblFacturación = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblFacturación
@@ -42,22 +42,13 @@
             this.lblFacturación.TabIndex = 0;
             this.lblFacturación.Text = "Sistema de facturación";
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(25, 227);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(80, 22);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
             // frmBienvenida
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(419, 261);
-            this.Controls.Add(this.button1);
+            this.ClientSize = new System.Drawing.Size(335, 300);
             this.Controls.Add(this.lblFacturación);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmBienvenida";
             this.Text = "frmBienvenida";
             this.ResumeLayout(false);
@@ -68,6 +59,5 @@
         #endregion
 
         private System.Windows.Forms.Label lblFacturación;
-        private System.Windows.Forms.Button button1;
     }
 }
