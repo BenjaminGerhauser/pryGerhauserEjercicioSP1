@@ -25,7 +25,7 @@ namespace pryGerhauserEjercicioSP1
                 if (cboMódulo.Text == "ADM" || cboMódulo.Text == "COM" || cboMódulo.Text == "VTA")
                 {
                     this.Hide();
-                    frmBienvenida Bienvenida = new frmBienvenida();
+                    frmInicio Bienvenida = new frmInicio();
                     Bienvenida.ShowDialog();
                     varintentos = 0;    
                 }
@@ -42,7 +42,8 @@ namespace pryGerhauserEjercicioSP1
                     if (cboMódulo.Text == "SIST")
                     {
                         this.Hide();
-                        frmBienvenida Bienvenida = new frmBienvenida();
+                        frmInicio Bienvenida = new frmInicio();
+
                         Bienvenida.ShowDialog();
                         varintentos = 0;
                     }
@@ -60,7 +61,8 @@ namespace pryGerhauserEjercicioSP1
                         if (cboMódulo.Text == "ADM" || cboMódulo.Text == "VTA")
                         {
                             this.Hide();
-                            frmBienvenida Bienvenida = new frmBienvenida();
+                            frmInicio Bienvenida = new frmInicio();
+
                             Bienvenida.ShowDialog();
                             varintentos = 0;
                         }
@@ -78,7 +80,7 @@ namespace pryGerhauserEjercicioSP1
                             if (cboMódulo.Text == "ADM" || cboMódulo.Text == "SIST" || cboMódulo.Text == "COM" || cboMódulo.Text == "VTA")
                             {
                                 this.Hide();
-                                frmBienvenida Bienvenida = new frmBienvenida();
+                                frmInicio Bienvenida = new frmInicio();
                                 Bienvenida.ShowDialog();
                                 varintentos = 0;
                             }
