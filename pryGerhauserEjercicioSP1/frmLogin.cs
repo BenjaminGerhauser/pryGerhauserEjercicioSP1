@@ -43,7 +43,6 @@ namespace pryGerhauserEjercicioSP1
                     {
                         this.Hide();
                         frmInicio Bienvenida = new frmInicio();
-
                         Bienvenida.ShowDialog();
                         varintentos = 0;
                     }
@@ -62,7 +61,6 @@ namespace pryGerhauserEjercicioSP1
                         {
                             this.Hide();
                             frmInicio Bienvenida = new frmInicio();
-
                             Bienvenida.ShowDialog();
                             varintentos = 0;
                         }
